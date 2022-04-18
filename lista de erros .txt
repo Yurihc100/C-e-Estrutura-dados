@@ -1,0 +1,352 @@
+arquivo.zip
+---
+arquivo.zip
+Archive:  arquivo.zip
+  inflating: settings.json           
+  inflating: Fila.cpp                
+  inflating: Fila.h                  
+  inflating: main.cpp                
+Fila.cpp
+Fila.h
+arquivo.zip
+main.cpp
+settings.json
+solution.h
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp: In member function 'std::__cxx11::string Fila::listar()':
+Fila.cpp:80:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Fila.cpp: In member function 'int Fila::listarFolhas()':
+Fila.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h: In member function 'void MyTestSuite1::testaImpressaoSemPapel()':
+solution.h:24:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h: In member function 'void MyTestSuite1::testaImpressaoComPapel()':
+solution.h:37:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:42:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:48:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:51:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:57:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:60:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h: In member function 'void MyTestSuite1::testaRemover()':
+solution.h:73:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:78:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:84:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:87:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:93:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:96:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:100:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), true);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:105:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), true);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:110:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), true);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:115:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), false);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h: In member function 'void MyTestSuite1::testaListarImpressao()':
+solution.h:142:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:150:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:157:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:161:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:168:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), true);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:172:60: error: no matching function for call to 'Fila::inserir(std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.inserir(arquivo, folhas), false);
+                                                            ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:19:6: note: candidate: 'bool Fila::inserir(std::__cxx11::string, int, int)'
+ bool Fila::inserir(string nomeArquivo, int numPaginas, int idArquivo)
+      ^~~~
+Fila.cpp:19:6: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:176:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), true);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:179:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), true);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:182:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), true);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
+In file included from /usr/include/cxxtest/RealDescriptions.h:20,
+                 from /usr/include/cxxtest/TestRunner.h:22,
+                 from runner01.cpp:11:
+solution.h:185:64: error: no matching function for call to 'Fila::remover(int&, std::__cxx11::string&, int&)'
+         TS_ASSERT_EQUALS(impressora.remover(id, arquivo, folhas), false);
+                                                                ^
+In file included from solution.h:10,
+                 from runner01.cpp:24:
+Fila.cpp:43:6: note: candidate: 'bool Fila::remover(int&)'
+ bool Fila::remover(int &auxValor)
+      ^~~~
+Fila.cpp:43:6: note:   candidate expects 1 argument, 3 provided
